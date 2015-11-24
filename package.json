@@ -1,0 +1,17 @@
+{
+  "name": "angularprbuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.4.8",
+    "angular-route": "^1.4.8",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
