@@ -4,7 +4,7 @@ app.service('service', function () {
         return data;
     };
 
-    this.insertData = function (data1, data2) {
+    this.addData = function (data1, data2) {
         data.push({
             data1: data1,
             data2: data2,
