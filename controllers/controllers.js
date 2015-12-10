@@ -10,9 +10,10 @@ app.controller('controller', function ($scope, service) {
     $scope.insertData = function () {
         var data1 = $scope.newData.data1;
         var data2 = $scope.newData.data2;
-        service.insertData(data1, data2);
+        service.addData(data1, data2);
         $scope.newData.data1 = '';
         $scope.newData.data2 = '';
     };
+    
     $scope.data = data;
 });
